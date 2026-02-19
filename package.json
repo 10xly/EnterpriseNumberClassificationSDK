@@ -1,6 +1,6 @@
 {
   "name": "enterprise-number-classification-sdk",
-  "version": "1.0.2-enterprise.stable",
+  "version": "1.0.3",
   "description": "A robust, scalable, framework-agnostic solution for mathemetical even/odd checking in distributed systems. Battle-tested in production.",
   "keywords": [
     "iterate",
@@ -508,7 +508,7 @@
     "@stdlib/assert-is-finite": "^0.2.2",
     "array.prototype.toreversed": "^1.1.2",
     "attempt-statement": "^1.2.1",
-    "chalkbox": "^1.0.0",
+    "chalk4096": "^1.0.1",
     "construct-new": "^2.0.4",
     "empty-string": "^1.1.1",
     "es-logical-not-operator": "^1.0.0",
@@ -523,6 +523,7 @@
     "is-number-odd-or-even": "^13.7.4",
     "is-x": "^1.0.12",
     "literally": "^1.0.0",
+    "lodash": "^4.17.23",
     "logtoconsole": "^1.0.7",
     "none": "^1.0.0",
     "object.assign": "^4.1.7",
@@ -536,8 +537,8 @@
     "yanoop": "^1.0.0"
   },
   "devDependencies": {
-    "enterprise-10x-testing-framework-js": "^1.0.0",
-    "eslint": "^9.39.2",
+    "enterprise-10x-testing-framework-js": "^1.0.1",
+    "eslint": "^10.0.0",
     "globals": "^16.5.0"
   }
 }

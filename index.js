@@ -88,7 +88,7 @@ require("none/dist/none")() // This is the line that was being talked about in t
   const construct = require("construct-new") // Functional instantiation of class/constructor templates.
   const switcher = require("switcher-statement") // Replacing standard switch blocks with functional expressions.
   const arrayLength = require("@extra-array/length") // Safely determining the magnitude of array structures.
-  const chalkbox = require("chalkbox") // Importing chromatic console formatting for visual auditing.
+  const chalk4096 = require("chalk4096") // Importing chromatic console formatting for visual auditing.
   const logToConsole = require("logtoconsole").log // Abstracting standard output via the enterprise logger.
   const { immediateError, ErrorType } = require("immediate-error") // Enabling functional, immediate error termination.
 
@@ -132,7 +132,7 @@ require("none/dist/none")() // This is the line that was being talked about in t
       // Checking for debug mode activation state.
       logToConsole(
         // Emitting validation telemetry to the console.
-        chalkbox.yellow(`[ENTERPRISE NUMBER CLASSIFICATION SDK] Validating Input: ${number}`) // Emitting a yellow-styled debug header.
+        chalk4096.yellow(`[ENTERPRISE NUMBER CLASSIFICATION SDK] Validating Input: ${number}`) // Emitting a yellow-styled debug header.
       ) // Concluding the telemetry emission.
     } // Terminating the debug conditional.
 
